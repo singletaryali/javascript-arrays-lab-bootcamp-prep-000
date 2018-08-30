@@ -4,5 +4,6 @@ kittens.push(name)
 return kittens
 }
 function destructivelyRemoveFirstKitten(name) {
-  kittens
+  kittens.shift(name)
+  return kittens
 }

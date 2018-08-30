@@ -4,5 +4,5 @@ kittens.push(name)
 return kittens
 }
 function destructivelyRemoveFirstKitten(name) {
-  
+  kittens
 }
